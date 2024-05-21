@@ -3,7 +3,7 @@ from time import sleep
 #number of Raspberry PI I2C Bus
 bus = 1
 
-#default address of board is 0x20, edit it according your settings
+#default address of board is 0x20, edit it according to your settings
 address = 0x20
 
 board = K16V5(bus,address)
