@@ -2,9 +2,8 @@
 ## A Python library for jxl XL9535-KxV5 I2C relay boards to be used on Raspbery PI
 These chinese boards are sold on 2, 4, 8 and 16 relays versions, in theory the library works on all of them with little modifications, but i only tested it on a 16 relay board.
 
-To use this library you will need the NumPY and smbus, install them using the command
+To use this library you will need the smbus, install it using the command
 ```sh
-pip install numpy
 pip install smbus
 ```
 
